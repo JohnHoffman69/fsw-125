@@ -1,0 +1,81 @@
+@import url('https://allfont.net/allfont.css?fonts=star-jedi');
+
+body, html {
+  margin: 0;
+  padding: 0; 
+  font-family: 'Star Jedi', arial; 
+  
+
+
+
+  
+}
+
+.bounties-container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.062);
+  padding: 20px;
+  border-radius: 1px;
+  font-family: 'Star Jedi', arial;
+  cursor: crosshair; 
+  color: red;
+  
+  
+  
+}
+
+
+.bounties {
+  background-image: url('https://images.unsplash.com/photo-1579566346927-c68383817a25?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGplZGl8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=60');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: crosshair; 
+  
+}
+
+@media (min-width: 575px){
+  .container {
+  max-width: 540px;
+}}
+
+@media (min-width: 765px){
+  .container {
+  max-width: 720px;
+}}
+
+@media (min-width: 992px){
+  .container {
+  max-width: 960px;
+}}
+
+@media (min-width: 1200px){
+  .container {
+  max-width: 1040px;
+}}
+
+@media (max-width: 575px) {
+  .container {
+      max-width: 90vw;
+  }
+}
+
+.container {
+  width: 100%;
+  padding-top: 25px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.dead-name {
+  text-decoration: line-through;
+}

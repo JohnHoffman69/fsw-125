@@ -9,7 +9,7 @@ app.use(morgan('dev'));
 // Routes
 app.use('/bounties', require('./routes/bountyRouter.js'));
 
-// Listen to port 3000
-app.listen(3000, () => {
-    console.log('Server is now listening to port 3000!');
+// Listen to port 3001
+app.listen(3001, () => {
+    console.log('Server is now listening to port 3001!');
 });

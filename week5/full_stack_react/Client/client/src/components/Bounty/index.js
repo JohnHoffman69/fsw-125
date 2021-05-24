@@ -28,9 +28,7 @@ const [editToggle, setEditToggle] = useState(false);
                     <h3>Alive: {living}</h3>
                     
                     <button className="delete" onClick={() => deleteBounty(_id)}>Delete</button> 
-                    <button className="edit" onClick={() => setEditToggle(prevToggle => !prevToggle)}>Edit</button>
-
-                    
+                    <button className="edit" onClick={() => setEditToggle(prevToggle => !prevToggle)}>Edit</button>     
                 </>
                 :
                 <>
